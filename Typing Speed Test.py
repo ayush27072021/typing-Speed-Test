@@ -150,7 +150,7 @@ class Game:
         #drawing heading
         self.screen.fill((0, 0, 0))
         self.screen.blit(self.bg, (0, 0))
-        msg = "CheetaToise: Typing Speed Test"
+        msg = " Typing Speed Test : "
         self.draw_text(self.screen, msg, 60, 60, self.HEAD_C)
 
         # draw the rectangle for input box
